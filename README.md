@@ -51,7 +51,7 @@ writefile(<string> filename, <string> content)
 
 Hooks the metamethod passed in the object's metatable with hook. A function to call the original metamethod is returned, you must use this function in order to call the original metamethod.
 
-This function will error if an object without a metatable is passed or a invalid metamethod is passed.(took for syn docs because it works the exact same way!)
+This function will error if an object without a metatable is passed or a invalid metamethod is passed.(took from syn docs because it works the exact same way!)
 
 Usage:
 ```lua
