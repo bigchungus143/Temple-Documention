@@ -2,6 +2,8 @@
 
 This is not an official documentation but a unofficial one to explain what every function does and the usage of them!
 
+Ill be adding more functions soon!
+
 # isfolder
 
 isfolder returns if the path you picked is a folder or not
