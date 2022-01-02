@@ -102,3 +102,48 @@ Usage:
 ```lua
 unprotect_gui(<string> gui)
 ```
+
+# getnamecallmethod
+
+Gets the name of method calling the current function
+
+Usage:
+```lua
+getnamecallmethod()
+```
+
+# setnamecallmethod
+
+Changes the NameCall method calling the current function to methodname
+
+Usage:
+```lua
+setnamecallmethod(<string> methodname)
+```
+
+# getthreadcontext
+
+Gets the context of the Thread calling the Current Function
+
+Usage:
+```lua
+getthreadcontext()
+```
+
+# setthreadcontext
+
+Sets the contex of the Thread calling the Current Function to contextlevel
+
+Usage:
+```lua
+setthreadcontext(<int> contextlevel)
+```
+
+# replaceclosure
+
+Replaces closure function with hook then returning a backup of function
+
+Usage:
+```lua
+replaceclosure(<function> function, <function> hook)
+```
